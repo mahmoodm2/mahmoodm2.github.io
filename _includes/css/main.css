@@ -58,20 +58,20 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #{{ site.color.primary }}; /* #fff;*/
+    border-color: #{{ site.color.secondary-dark }}; /* #fff;*/
 }
 
 hr.star-light:after {
     color: #{{ site.color.primary }}; /* #fff;*/
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary-dark }};
     background-color: #fff;
 }
 
@@ -179,12 +179,12 @@ section h2 {
     font-size: 3em;
 }
 
-section.success section:nth-of-type(even){
+section.success:nth-of-type(even){
     color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.primary }};
 }
 
-section.success section:nth-of-type(odd){
+section.success:nth-of-type(odd){
     color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.alternate }};
 }
