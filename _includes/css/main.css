@@ -280,8 +280,8 @@ section:nth-of-type(odd){
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #{{ site.color.primary }}; 
+    background: #35A6C9;
 }
 
 .floating-label-form-group {
