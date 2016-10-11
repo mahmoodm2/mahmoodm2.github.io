@@ -45,6 +45,14 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
+links:
+    csharp: msdn.microsoft.com/en-us/library/z1zx9t92.aspx
+    java: java.oracle.com
+    python: www.python.org
+    jquery: jquery.com
+    ocaml: ocaml.org
+    javascript: javascript.com
+    
 # Footer settings
 footer:
   copyright: Mahmoud Mohammadi
