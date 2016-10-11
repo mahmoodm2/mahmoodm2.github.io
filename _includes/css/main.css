@@ -179,12 +179,12 @@ section h2 {
     font-size: 3em;
 }
 
-section.success:nth-of-type(even){
+section:nth-of-type(even){
     color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.primary }};
 }
 
-section.success:nth-of-type(odd){
+section:nth-of-type(odd){
     color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.alternate }};
 }
