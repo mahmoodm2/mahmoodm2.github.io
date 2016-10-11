@@ -5,10 +5,11 @@
  */
 
  .pad-box{
-	 padding-bottom : 20px;
+	 padding-bottom : 3px;
 	 padding-left : 20px;
 	 padding-right : 20px;
-	 padding-top : 20px;
+	 padding-top : 3px;
+	 margin : 4px;
  }
 body {
     overflow-x: hidden;
