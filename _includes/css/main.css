@@ -81,7 +81,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.primary }};
 }
 
@@ -180,7 +180,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.forecolor }};  /* #fff;*/
     background: #{{ site.color.primary }};
 }
 
@@ -211,6 +211,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
+	color : #{{ site.color.forecolor }};  /**/
     background: rgba({{ site.color.primary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
