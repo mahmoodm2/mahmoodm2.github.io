@@ -52,6 +52,15 @@ links:
     jquery: jquery.com
     ocaml: ocaml.org
     javascript: javascript.com
+    vs: visulastudio.com
+    hadoop: hadoop.apache.org
+    spark: spark.apache.org
+    eclipse: eclipse.org
+    junit: junit.org
+    plugin: eclipse.org/pde
+    fortify: www8.hp.com/us/en/software-solutions/application-security/index.html
+    sql: www.microsoft.com/en-us/cloud-platform/sql-server
+    mysql: myslq.com
     
 # Footer settings
 footer:
