@@ -60,7 +60,9 @@ links:
     plugin: eclipse.org/pde
     fortify: www8.hp.com/us/en/software-solutions/application-security/index.html
     sql: www.microsoft.com/en-us/cloud-platform/sql-server
-    mysql: myslq.com
+    mysql: mysql.com
+    static: www.owasp.org/index.php/Static_Code_Analysis
+    dynamic:www.infosecisland.com/blogview/16706-Dynamic-Application-Security-Testing-DAST.html
     
 # Footer settings
 footer:
