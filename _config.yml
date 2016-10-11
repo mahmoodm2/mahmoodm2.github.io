@@ -6,6 +6,20 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
+# Configuration for asides.html
+# CAUTION: `themes` should be false to put the script.html at the bottom.
+asides:
+    about: false
+    search: false
+    themes: false
+    recent_posts: true
+    archive_tabs: false
+    tweets: false
+    github: false
+ 
+# Configuration for asides/recent_posts.html
+recent_posts: 5
+ 
 # Google webmaster tools
 google_verify:
 
