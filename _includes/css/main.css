@@ -199,7 +199,7 @@ section:nth-of-type(even){
 
 section:nth-of-type(odd){
     color: #{{ site.color.forecolor }};  /* #fff;*/
-    background: #{{ site.color.alternate }};
+    background: #{{ site.color.bg_alternate }};
 }
 
 @media(max-width:767px) {
