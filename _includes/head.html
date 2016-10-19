@@ -42,13 +42,18 @@
     #mcontent,#maside  {float:none; width:100%;}
 	}
 	
-	@media only screen and(min-width: 992px){
-	.partial{ width:970px;	}
-	}
-	@media only screen and(min-width: 768px){
+	@media (min-width: 768px){
 	.partial{ width: 750px;	}
 	}
 	
+	@media (min-width: 992px){
+	.partial{ width:970px;	}
+	}
+	
+	.partial{
+		    margin-right: auto;
+			margin-left: auto;
+	}
 	#mfooter{
 	clear:both;
 	}
