@@ -25,12 +25,16 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.forecolor }};
+}
+a:hover
+ {
+    outline: 0;
+    color: #{{ site.color.hover }};
 }
 
 h1,
@@ -41,7 +45,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 100;
 	text-decoration: text-align:center;
 }
 
@@ -71,7 +75,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #{{ site.color.primary }}; /* #fff;*/
+    color: #{{ site.color.bg_primary }}; /* #fff;*/
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -91,7 +95,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #{{ site.color.forecolor }};  /* #fff;*/
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.bg_primary }};
 }
 
 header .container {
@@ -124,7 +128,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 1.75em;
     }
 
     header .intro-text .skills {
@@ -190,7 +194,7 @@ section h2 {
 
 section:nth-of-type(even){
     color: #{{ site.color.forecolor }};  /* #fff;*/
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.bg_primary }};
 }
 
 section:nth-of-type(odd){
@@ -334,7 +338,7 @@ section:nth-of-type(odd){
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.bg_primary }};
 }
 
 form .row:first-child .floating-label-form-group {
