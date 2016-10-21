@@ -1,9 +1,9 @@
 			<section id="sidebar-recent-posts" class="">
 				<h3 class="mini-icon">Recent Conferences</h3>
 				<ul id="recent_posts" class="nav nav-list">
-{% for conf in site.conferences limit: site.recent_posts %}
+{% for conf in site.conferences limit: 2 %}
 					<li class="post"><p>
-						{{ conf.date }}<a href="{{ conf.url }}">{{ conf.title }} (Due: {{conf.due}})</a>
+						{{ conf.when }}<a href="{{ conf.url }}">{{ conf.title }} (Due: {{conf.due}})</a>
 								
 						
 					</p></li>	
