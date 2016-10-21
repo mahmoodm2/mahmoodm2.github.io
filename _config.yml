@@ -46,8 +46,11 @@ color:
   secondary-dark: 233140 #A2122F
   hover: 2fa4e7
 
+<<<<<<< HEAD
 collections:
     confs
+=======
+>>>>>>> origin/master
     
 links:
     csharp: msdn.microsoft.com/en-us/library/z1zx9t92.aspx
