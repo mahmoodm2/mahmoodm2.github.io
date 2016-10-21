@@ -48,7 +48,7 @@ color:
 
 
 collections:
-    confs
+    -confs
     
 links:
     csharp: msdn.microsoft.com/en-us/library/z1zx9t92.aspx
