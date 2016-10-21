@@ -18,7 +18,7 @@ asides:
     github: false
  
 # Configuration for asides/recent_posts.html
-recent_posts: 5
+recent_posts: 10
 
 # Google webmaster tools
 google_verify:
@@ -46,6 +46,9 @@ color:
   secondary-dark: 233140 #A2122F
   hover: 2fa4e7
 
+collections:
+    conferences
+    
 links:
     csharp: msdn.microsoft.com/en-us/library/z1zx9t92.aspx
     java: java.oracle.com
