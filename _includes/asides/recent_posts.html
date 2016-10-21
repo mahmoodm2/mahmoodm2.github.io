@@ -1,6 +1,11 @@
-			<section id="sidebar-recent-posts" class="">
-				<h3 class="mini-icon">Recent Conferences</h3>
-				<ul id="recent_posts" class="nav nav-list">
-
-				</ul>
-			</section>
+<section id="sidebar-recent-posts" class="">
+	<h3 class="mini-icon">Recent Conferences</h3>
+	<ul id="recent_posts" class="nav nav-list">
+{% for conf in site.confs limit: site.recent_posts %}
+					<li class="post"><p>
+						{{ conf.date }}<a href="{{ conf.url }}">{{ conf.title }} (Due: {{conf.due}})</a>
+					</p></li>	
+					
+{% endfor %}
+	<ul>
+</section>
