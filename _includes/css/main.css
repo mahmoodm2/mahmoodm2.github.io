@@ -204,7 +204,7 @@ section:nth-of-type(odd){
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 5px 0;
     }
 
     section.first {
