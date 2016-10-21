@@ -4,19 +4,7 @@
 {% for conf in site.conferences limit: site.recent_posts %}
 					<li class="post"><p>
 						{{ conf.date }}<a href="{{ conf.url }}">{{ conf.title }} (Due: {{conf.due}})</a>
-						content {{ conf.content }}.
-						output {{ conf.output }}.
-						path {{ conf.path }}.
-						relative_path {{ conf.relative_path }}.
-						url {{ conf.url }}.
-						collection {{ conf.collection }}.
-						date {{ conf.date }}.
-						
-						path {{ conf.path }}.
-						name {{ conf.name }}.
-						title {{ conf.title }}.
-						output_ext {{ conf.output_ext }}.
-						collection {{ conf.collection }}	.				
+										
 						
 					</p></li>	
 {% endfor %}
