@@ -1,0 +1,21 @@
+--------
+my primary area of interest is using machine learning, artificial intelligence and signal processing for computer security. 
+I am particularly interested in understanding how deep learning can improve computer security. 
+In the past, I have also done research in the areas of audio signal processing, adaptive filtering, statistical signal processing, biomedical signal processing and wireless communications.
+--------------
+I have a wide interest in Machine Learning spanning from optimization algorithms to distributed systems.
+My current main research pursuit is reinforcement learning (RL) with focus on
+
+off-policy, transferable, and data-efficient learning (e.g. via model-based methods)
+and real-world optimal control applications, including indoor farming optimization and industrial robotics at large, etc.
+Previously, I’ve also worked on
+
+Convolutional neural nets and computer vision (object detection, image segmentation, image classification, etc.)
+Image captioning and multimodal modeling
+Optimization algorithms (SDCA, etc.)
+DL/ML platform
+-----------
+My recent research focuses on applications of deep learning for data privacy. 
+More specificaly I am investigating how generative adversarail netwroks can prevent information leakage while preserving data utility.
+---------------
+My intrests focus on variuosos topics of machine learning techniques such as deep learning, distributed learning and reinforcement learning.

@@ -1,0 +1,72 @@
+/*************************************************
+ *  Hugo Academic: an academic theme for Hugo.
+ *  Designed by @GeorgeCushen.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+/*************************************************
+ *  Overide Academic CSS
+ **************************************************/
+
+
+body {
+  font-family: inherit;
+  font-size: 0.8rem;
+  line-height: inherit;
+  color: inherit;
+  margin-top: 71px; /* Offset body content by navbar height. */
+  padding-top: 0;
+  counter-reset: captions;
+}
+
+#profile .portrait-title h2 {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+#profile .portrait-title h3 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(0,0,0, 0.54);
+  margin: 0px 0 10px 0;
+}
+
+#profile {
+  text-align: center;
+  padding: 5px 5px;
+  position: relative;
+}
+
+
+.home-section {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0 2px 0;
+    padding: 5px 0 2px 0;
+    animation: intro 0.3s both;
+    animation-delay: 0.15s;
+}
+
+.home-section:first-of-type {
+  padding-top: 5px;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.0rem;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.0rem;
+  font-size: 0.9rem;
+}
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
